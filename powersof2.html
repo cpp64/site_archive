@@ -15,10 +15,13 @@
             var _x_eq = x;
             x += putText(x.toString()+"px", "25px", "=");
             for (var i = 0; i < binLen(n); i++){
-                x += putInput(x.toString() + "px", "25px", "12px", "A" + i.toString());
+                //множитель
+                x += putInput(x.toString() + "px", "25px", "20px", "A" + i.toString());
+                //*2
                 var _2w = putText(x.toString() + "px", "25px", "*2");
+                //степень
                 var _iw = putInput((x + _2w).toString()+"px", "5px",
-                                   "12px", "B" + i.toString());
+                                   "20px", "B" + i.toString());
                 x += _2w + _iw;
                 if(i < binLen(n) - 1)
                     x += putText(x.toString() + "px", "25px", "+");
