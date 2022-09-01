@@ -16,7 +16,7 @@
             x += putText(x.toString()+"px", "25px", "=");
             for (var i = 0; i < binLen(n); i++){
                 x += putInput(x.toString() + "px", "25px", "12px", "A" + i.toString());
-                var _2w = putText(x.toString() + "px", "25px", "2");
+                var _2w = putText(x.toString() + "px", "25px", "*2");
                 var _iw = putInput((x + _2w).toString()+"px", "5px",
                                    "12px", "B" + i.toString());
                 x += _2w + _iw;
@@ -56,7 +56,7 @@
                 return 1;
             }
             function showResult(){
-                alert(check() == 0 ? "no" : "yes");
+                alert(check() == 0 ? "Неверно" : "Верно");
             }
         </script>
     </body>
