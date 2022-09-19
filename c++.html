@@ -57,14 +57,9 @@
                     "#include <iostream>\n" +
                     "int strlen(char * s)\n" +
                     "{\n" +
-                    "    char * ptr = s;\n" +
-                    "    int result = 0;\n" +
-                    "    while(*ptr)\n" +
-                    "    {\n" +
-                    "        ++ptr;\n" +
-                    "        ++result;\n" +
-                    "    }\n" +
-                    "    return result;\n" +
+                    "    int n = 0;\n" +
+                    "    while(s[n]) ++n;\n" +
+                    "    return n;\n" +
                     "}\n" +
                     "int main(){\n" +
                     cppEditor.getValue() +
