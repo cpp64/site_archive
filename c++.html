@@ -53,7 +53,10 @@
                     }
                 };
                 var code = 
-                    "#include <iostream>\nint main(){\n" +
+                    "#include <iostream>\n" +
+                    "#include <cstdio>\n" +
+                    "#include <cstring>\n" +
+                    "int main(){\n" +
                     cppEditor.getValue() +
                     "\nreturn 0;\n}";
                 var input = document.getElementById("2").value;
