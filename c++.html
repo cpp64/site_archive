@@ -54,7 +54,18 @@
                 };
                 var code = 
                     "#include <stdio.h>\n" +
-                    "#include <iostream>\n" +                    
+                    "#include <iostream>\n" +
+                    "int strlen(char * s)\n" +
+                    "{\n" +
+                    "    char * ptr = s;\n" +
+                    "    int result = 0;\n" +
+                    "    while(*ptr)\n" +
+                    "    {\n" +
+                    "        ++ptr;\n" +
+                    "        ++result;\n" +
+                    "    }\n" +
+                    "    return result;\n" +
+                    "}\n" +
                     "int main(){\n" +
                     cppEditor.getValue() +
                     "\nreturn 0;\n}";
