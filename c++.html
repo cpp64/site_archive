@@ -55,8 +55,27 @@
                     }
                 };
                 var code = 
-                    "#include <stdio.h>\n" +
                     "#include <iostream>\n" +
+                    "void gets(char * s)\n" +
+                    "{\n" +
+                    "    int i = 0;\n" +
+                    "    do\n" +
+                    "    {\n" +
+                    "        int c = cin.get();\n" +
+                    "        if(c == -1) break;\n" +
+                    "        s[i] = (char)c;\n" +
+                    "        ++i;\n" +
+                    "    } while (s[i] != 10);\n" +
+                    "}\n" +
+                    "void puts(char * s)\n" +
+                    "{\n" +
+                    "    int i = 0;\n" +
+                    "    while (s[i])\n" +
+                    "    {\n" +
+                    "        cout << s[i];\n" +
+                    "        ++i;\n" +
+                    "    }\n" +
+                    "}\n" +
                     "int strlen(char * s)\n" +
                     "{\n" +
                     "    int n = 0;\n" +
