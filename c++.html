@@ -59,13 +59,14 @@
                     "void gets(char * s)\n" +
                     "{\n" +
                     "    int i = 0;\n" +
-                    "    do\n" +
+                    "    for(;;)\n" +
                     "    {\n" +
                     "        int c = cin.get();\n" +
+                    "        if(c == 10) break;\n" +
                     "        if(c == -1) break;\n" +
                     "        s[i] = (char)c;\n" +
                     "        ++i;\n" +
-                    "    } while (s[i] != 10);\n" +
+                    "    }\n" +
                     "}\n" +
                     "void puts(char * s)\n" +
                     "{\n" +
