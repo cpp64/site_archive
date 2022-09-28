@@ -54,7 +54,9 @@
                         }
                     }
                 };
-                var code = cppEditor.getValue();
+                var code = 
+                    "#define bool int\n"+
+                    cppEditor.getValue();
                 var input = document.getElementById("2").value;
                 var exitCode = JSCPP.run(code, input, config);
                 document.getElementById("3").value = output;
