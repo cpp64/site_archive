@@ -12,7 +12,7 @@ h1
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(-90deg, #64b4e9, #d96969);
+    background: linear-gradient(-90deg, #64b4e9, #ffffff);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
 }
