@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+}
+
+h1
+{
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-90deg, #64b4e9, #d96969);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+.hero
+{
+    width: 100%;
+}
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo
+{
+
+    color: black;
+}
+span
+{
+    color: cyan;
+}
+nav ul li 
+{
+    
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;   
+}
+nav ul li a:hover
+{
+    color: cyan;
+    transition: .3s;
+    font-size: 105%;
+}
+
+.hw
+{
+    list-style-type: none;
+    margin: 150px;
+}
+
