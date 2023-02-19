@@ -2,15 +2,17 @@ h1
 {
     position: absolute;
     text-align: left;
+    align: left;
 }
 body
 {
-    background-color: #ddddff;
+    background-color: #eeeeff;
 }
 nav
 {
     display: flex;
     align-items: left;
+    align: left;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 0;
