@@ -6,7 +6,7 @@ h1
 }
 body
 {
-    background-color: #eeeeff;
+    background-color: #ddddff;
 }
 nav
 {
@@ -39,16 +39,13 @@ nav ul li a
 {
     color: black;
     text-decoration: none;
-    font-weight: bold;
     transition: .3s;   
 }
 nav ul li a:hover
 {
     color: cyan;
     transition: .3s;
-    font-size: 105%;
 }
-
 .hw
 {
     list-style-type: none;
