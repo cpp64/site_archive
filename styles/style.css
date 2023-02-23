@@ -14,11 +14,13 @@ a
 {
     color: cyan;
     margin: 10px;
+    font-size: 150%;
 }
 .T
 {
     color: black;
-    transition: .4s;   
+    transition: .4s;
+    font-size: 150%;
 }
 .T:hover
 {
