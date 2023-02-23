@@ -10,17 +10,20 @@ a
 {
     padding: 0;
 }
+.INF
+{
+    font-size: 150%;
+}
 .FTL
 {
+    font-size: 150%;
     color: cyan;
     margin: 10px;
-    font-size: 150%;
 }
 .T
 {
     color: black;
     transition: .4s;
-    font-size: 150%;
 }
 .T:hover
 {
