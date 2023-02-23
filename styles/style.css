@@ -17,7 +17,7 @@ a
 a:hover {
    text-decoration: none;
    margin-left: 10px;
-   color: yellow;
+   color: cyan;
    transition: .4s;
 }
 .INF
@@ -32,5 +32,5 @@ a:hover {
    font-size: 150%;
    font-weight: bold;
    color: orange;
-   margin-left: 5px;
+   margin: 0px;
 }
