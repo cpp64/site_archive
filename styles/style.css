@@ -11,19 +11,17 @@ body
 
     color: black;
 }
-span
+.FTL
 {
     color: cyan;
     margin: 10px;
 }
-.class123 ul li 
+.T
 {
-    
-    list-style-type: none;
     color: black;
     transition: .4s;   
 }
-.class123 ul li:hover
+.T:hover
 {
     color: cyan;
     transition: .4s;
