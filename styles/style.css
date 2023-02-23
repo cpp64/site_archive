@@ -4,7 +4,8 @@ body
 }
 .nav
 {
-   padding: 0;
+   padding: 0px;
+   margin: 0px;
 }
 a
 {
