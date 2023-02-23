@@ -1,32 +1,29 @@
 body
 {
-    background-color: #ddddff;
+   background-color: #ddddff;
 }
 a
 {
-  text-decoration: none;
+   text-decoration: none;
+   color: black;
+   transition: .4s;
+}
+a:hover {
+   text-decoration: none;
+   background-color: yellow;
+   color: cyan;
 }
 .nav
 {
-    padding: 0;
+   padding: 0;
 }
 .INF
 {
-    font-size: 150%;
+   font-size: 150%;
 }
 .FTL
 {
-    font-size: 150%;
-    color: cyan;
-    margin: 10px;
-}
-.T
-{
-    color: black;
-    transition: .4s;
-}
-.T:hover
-{
-    color: cyan;
-    transition: .4s;
+   font-size: 150%;
+   color: cyan;
+   margin: 10px;
 }
