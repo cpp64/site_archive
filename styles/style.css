@@ -10,7 +10,6 @@ a
 }
 a:hover {
    text-decoration: none;
-   background-color: yellow;
    color: cyan;
 }
 .nav
@@ -20,6 +19,7 @@ a:hover {
 .INF
 {
    font-size: 150%;
+   font-weight:bold;
 }
 .FTL
 {
