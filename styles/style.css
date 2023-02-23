@@ -5,11 +5,13 @@ body
 a
 {
    text-decoration: none;
+   margin: 10px;
    color: black;
    transition: .4s;
 }
 a:hover {
    text-decoration: none;
+   margin: 10px;
    color: cyan;
 }
 .nav
@@ -20,6 +22,7 @@ a:hover {
 {
    font-size: 150%;
    font-weight: bold;
+   margin: 10px;
 }
 .FTL
 {
