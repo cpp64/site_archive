@@ -16,18 +16,15 @@ span
     color: cyan;
     margin: 10px;
 }
-ul li 
+.class123 ul li 
 {
     
     list-style-type: none;
-}
-ul li a
-{
     color: black;
-    transition: .3s;   
+    transition: .4s;   
 }
-ul li a:hover
+.class123 ul li:hover
 {
     color: cyan;
-    transition: .3s;
+    transition: .4s;
 }
