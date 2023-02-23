@@ -11,26 +11,26 @@ a
 {
    text-decoration: none;
    margin-left: 10px;
-   color: black;
    transition: .4s;
+   color: black;
 }
 a:hover {
    text-decoration: none;
    margin-left: 10px;
-   color: cyan;
    transition: .4s;
+   color: cyan;
 }
 .INF
 {
    font-size: 150%;
    font-weight: bold;
-   color: black;
    margin: 0px;
+   color: black;
 }
 .FTL
 {
    font-size: 150%;
    font-weight: bold;
-   color: orange;
    margin: 0px;
+   color: orange;
 }
