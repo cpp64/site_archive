@@ -15,7 +15,7 @@ a
 }
 a:hover {
    text-decoration: none;
-   margin: 10px;
+   margin-left: 10px;
    color: yellow;
    transition: .4s;
 }
@@ -31,5 +31,5 @@ a:hover {
    font-size: 150%;
    font-weight: bold;
    color: orange;
-   margin: 10px;
+   margin-left: 10px;
 }
