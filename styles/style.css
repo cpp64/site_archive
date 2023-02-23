@@ -13,6 +13,7 @@ a:hover {
    text-decoration: none;
    margin: 10px;
    color: yellow;
+   transition: .4s;
 }
 .nav
 {
