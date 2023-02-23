@@ -2,6 +2,10 @@ body
 {
    background-color: #ddddff;
 }
+.nav
+{
+   padding: 0;
+}
 a
 {
    text-decoration: none;
@@ -14,10 +18,6 @@ a:hover {
    margin: 10px;
    color: yellow;
    transition: .4s;
-}
-.nav
-{
-   padding: 0;
 }
 .INF
 {
