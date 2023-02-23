@@ -9,7 +9,7 @@ body
 a
 {
    text-decoration: none;
-   margin: 10px;
+   margin-left: 10px;
    color: black;
    transition: .4s;
 }
