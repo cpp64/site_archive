@@ -2,7 +2,7 @@ body
 {
     background-color: #cfcfff;
 }
-nav
+.nav
 {
     padding: 0;
 }
@@ -21,12 +21,12 @@ ul li
     
     list-style-type: none;
 }
-ul li
+ul li a
 {
     color: black;
     transition: .3s;   
 }
-ul li:hover
+ul li a:hover
 {
     color: cyan;
     transition: .3s;
