@@ -2,6 +2,10 @@ body
 {
     background-color: #ddddff;
 }
+a
+{
+  text-decoration: none;
+}
 .nav
 {
     padding: 0;
