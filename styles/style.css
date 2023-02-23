@@ -24,6 +24,7 @@ a:hover {
 .FTL
 {
    font-size: 150%;
+   font-weight:bold;
    color: cyan;
    margin: 10px;
 }
