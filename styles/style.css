@@ -2,19 +2,19 @@ body
 {
    background-color: #ccffff;
 }
-.nav
+nav
 {
    padding: 0px;
    margin: 0px;
 }
-a
+nav.a
 {
    text-decoration: none;
    margin-left: 10px;
    transition: .7s;
    color: black;
 }
-a:hover {
+nav.a:hover {
    text-decoration: none;
    margin-left: 10px;
    transition: .7s;
