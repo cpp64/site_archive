@@ -20,13 +20,12 @@ a
 {
    text-decoration: none;
    transition: .7s;
-   /*color: blue;*/
 }
 a:hover
 {
    text-decoration: none;
    transition: .7s;
-   /*color: cyan;*/
+   color: cyan;
 }
 .INF
 {
