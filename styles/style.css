@@ -14,7 +14,8 @@ nav.a
    transition: .7s;
    color: black;
 }
-nav.a:hover {
+nav.a:hover
+{
    text-decoration: none;
    margin-left: 100px;
    transition: .7s;
@@ -26,7 +27,8 @@ a
    transition: .7s;
    color: black;
 }
-a:hover {
+a:hover
+{
    text-decoration: none;
    transition: .7s;
    color: cyan;
