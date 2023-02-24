@@ -10,6 +10,7 @@ body
 a.nav-link
 {
    text-decoration: none;
+   font-weight: bold;
    margin-left: 15px;
    transition: .7s;
    color: black;
@@ -17,6 +18,7 @@ a.nav-link
 a.nav-link:hover
 {
    text-decoration: none;
+   font-weight: bold;
    margin-left: 15px;
    transition: .7s;
    color: cyan;
