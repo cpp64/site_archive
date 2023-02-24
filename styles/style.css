@@ -2,19 +2,19 @@ body
 {
    background-color: #ddffff;
 }
-.nav
+/*nav
 {
    padding: 0px;
    margin: 0px;
-}
-nav.a
+}*/
+nav-link.a
 {
    text-decoration: none;
    margin-left: 100px;
    transition: .7s;
    color: black;
 }
-nav.a:hover
+nav-link.a:hover
 {
    text-decoration: none;
    margin-left: 100px;
