@@ -16,7 +16,7 @@ a.nav-link:hover
    transition: .7s;
    color: cyan;
 }
-a
+/*a
 {
    text-decoration: none;
    transition: .7s;
@@ -26,7 +26,7 @@ a:hover
    text-decoration: none;
    transition: .7s;
    color: cyan;
-}
+}*/
 .aINF
 {
    text-decoration: none;
