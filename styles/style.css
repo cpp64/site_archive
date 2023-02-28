@@ -16,17 +16,6 @@ a.nav-link:hover
    transition: .7s;
    color: cyan;
 }
-/*a
-{
-   text-decoration: none;
-   transition: .7s;
-}
-a:hover
-{
-   text-decoration: none;
-   transition: .7s;
-   color: cyan;
-}*/
 .aINF
 {
    text-decoration: none;
@@ -53,5 +42,5 @@ a:hover
 {
    font-size: 150%;
    font-weight: bold;
-   color: orange;
+   color: cyan;
 }
