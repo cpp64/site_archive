@@ -8,20 +8,20 @@ body {
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: #eeeeee;
+   background-color: #888888;
 }
  li.navbar{
    float: left;
 }
  li.navbar a {
    display: block;
-   color: black;
+   color: #ffffff;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
 }
  li.navbar a:hover {
-   background-color: #ffffff;
+   background-color: cyan;
 }
  a.nav-link {
    text-decoration: none;
