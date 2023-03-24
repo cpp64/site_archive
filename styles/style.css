@@ -1,17 +1,43 @@
-body {
+body
+{
    background-color: #f0ffff;
-   /*margin: 0;
-   padding: 0;*/
+   margin: 0;
+   padding: 0;
 }
-.footer {
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.main
+{
+   padding: 10px;
+}
+.footer
+{
    position: fixed;
-   left: 0;
-   bottom: 0;
    width: 100%;
    color: #000000;
    text-align: center;
 }
- ul.navbar{
+ul.navbar
+{
    left: 0;
    bottom: 0;
    list-style-type: none;
@@ -20,51 +46,60 @@ body {
    overflow: hidden;
    background-color: #888888;
 }
- li.navbar{
+li.navbar
+{
    float: left;
 }
- li.navbar a {
+li.navbar a
+{
    display: block;
    color: #ffffff;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
 }
- li.navbar a:hover {
+li.navbar a:hover
+{
    background-color: cyan;
 }
- a.nav-link {
+a.nav-link
+{
    text-decoration: none;
    margin-left: 15px;
    transition: .7s;
    color: black;
 }
- a.nav-link:hover {
+a.nav-link:hover
+{
    text-decoration: none;
    margin-left: 15px;
    transition: .7s;
    color: cyan;
 }
- .aINF {
+.aINF
+{
    text-decoration: none;
    transition: .7s;
    font-size: 150%;
    font-weight: bold;
    color: black;
 }
- .aINF:hover {
+.aINF:hover
+{
    text-decoration: none;
    transition: .7s;
    font-size: 150%;
    font-weight: bold;
    color: cyan;
 }
- .INF {
+.INF
+{
    font-size: 150%;
    font-weight: bold;
    color: black;
 }
- .FTL {
+.FTL
+{
    font-size: 150%;
    font-weight: bold;
    color: orange;
