@@ -1,9 +1,19 @@
 body {
    background-color: #f0ffff;
-   margin: 0;
-   padding: 0;
+   /*margin: 0;
+   padding: 0;*/
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: #000000;
+   text-align: right;
 }
  ul.navbar{
+   left: 0;
+   bottom: 0;
    list-style-type: none;
    margin: 0;
    padding: 0;
