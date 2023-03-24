@@ -35,6 +35,9 @@ body
    width: 100%;
    color: #000000;
    text-align: center;
+   left: 0;
+   bottom: 0;
+   font-size: 15px;
 }
 ul.navbar
 {
