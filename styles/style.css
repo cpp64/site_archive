@@ -1,63 +1,61 @@
 body {
-     background-color: #f0ffff;
-     margin: 0;
-     padding: 0;
+   background-color: #f0ffff;
+   margin: 0;
+   padding: 0;
 }
  ul.navbar{
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     overflow: hidden;
-     background-color: #ffffff;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #ffffff;
 }
  li.navbar{
-     float: left;
+   float: left;
 }
  li.navbar a {
-     display: block;
-     color: white;
-     text-align: center;
-    /*padding: 14px 16px;
-    */
-     text-decoration: none;
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
 }
  li.navbar a:hover {
-     background-color: #f0ffff;
+   background-color: #f0ffff;
 }
  a.nav-link {
-     text-decoration: none;
-     margin-left: 15px;
-     transition: .7s;
-     color: black;
+   text-decoration: none;
+   margin-left: 15px;
+   transition: .7s;
+   color: black;
 }
  a.nav-link:hover {
-     text-decoration: none;
-     margin-left: 15px;
-     transition: .7s;
-     color: cyan;
+   text-decoration: none;
+   margin-left: 15px;
+   transition: .7s;
+   color: cyan;
 }
  .aINF {
-     text-decoration: none;
-     transition: .7s;
-     font-size: 150%;
-     font-weight: bold;
-     color: black;
+   text-decoration: none;
+   transition: .7s;
+   font-size: 150%;
+   font-weight: bold;
+   color: black;
 }
  .aINF:hover {
-     text-decoration: none;
-     transition: .7s;
-     font-size: 150%;
-     font-weight: bold;
-     color: cyan;
+   text-decoration: none;
+   transition: .7s;
+   font-size: 150%;
+   font-weight: bold;
+   color: cyan;
 }
  .INF {
-     font-size: 150%;
-     font-weight: bold;
-     color: black;
+   font-size: 150%;
+   font-weight: bold;
+   color: black;
 }
  .FTL {
-     font-size: 150%;
-     font-weight: bold;
-     color: orange;
+   font-size: 150%;
+   font-weight: bold;
+   color: orange;
 }
- 
