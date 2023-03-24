@@ -4,14 +4,13 @@ body
    margin: 0;
    padding: 0;
 }
-/* Style the top navigation bar */
-.topnav {
+.topnav
+{
   overflow: hidden;
   background-color: #888888;
 }
-
-/* Style the topnav links */
-.topnav a {
+.topnav a
+{
   float: left;
   display: block;
   color: #ffffff;
@@ -19,9 +18,8 @@ body
   padding: 14px 16px;
   text-decoration: none;
 }
-
-/* Change color on hover */
-.topnav a:hover {
+.topnav a:hover
+{
   background-color: cyan;
   color: #000000;
 }
