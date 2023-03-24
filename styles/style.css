@@ -31,12 +31,11 @@ body
 }
 .footer
 {
-   position: fixed;
-   width: 100%;
-   color: #000000;
-   text-align: center;
    left: 0;
    bottom: 0;
+   width: 100%;
+   text-align: center;
+   color: #000000;
    font-size: 15px;
 }
 ul.navbar
