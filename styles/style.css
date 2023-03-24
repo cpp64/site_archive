@@ -38,46 +38,6 @@ body
    color: #000000;
    font-size: 15px;
 }
-ul.navbar
-{
-   left: 0;
-   bottom: 0;
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #888888;
-}
-li.navbar
-{
-   float: left;
-}
-li.navbar a
-{
-   display: block;
-   color: #ffffff;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-}
-li.navbar a:hover
-{
-   background-color: cyan;
-}
-a.nav-link
-{
-   text-decoration: none;
-   margin-left: 15px;
-   transition: .7s;
-   color: black;
-}
-a.nav-link:hover
-{
-   text-decoration: none;
-   margin-left: 15px;
-   transition: .7s;
-   color: cyan;
-}
 .aINF
 {
    text-decoration: none;
