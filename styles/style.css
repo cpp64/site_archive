@@ -37,31 +37,3 @@ body
    color: #000000;
    font-size: 15px;
 }
-.aINF
-{
-   text-decoration: none;
-   transition: .7s;
-   font-size: 150%;
-   font-weight: bold;
-   color: black;
-}
-.aINF:hover
-{
-   text-decoration: none;
-   transition: .7s;
-   font-size: 150%;
-   font-weight: bold;
-   color: cyan;
-}
-.INF
-{
-   font-size: 150%;
-   font-weight: bold;
-   color: black;
-}
-.FTL
-{
-   font-size: 150%;
-   font-weight: bold;
-   color: orange;
-}
