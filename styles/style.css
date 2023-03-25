@@ -20,8 +20,8 @@ body
 }
 .topnav a:hover
 {
-  background-color: cyan;
-  color: yellow;
+  background-color: #eeeeee;
+  color: #000000;
 }
 .main
 {
